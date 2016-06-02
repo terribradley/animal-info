@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-1.12.4.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Pets! Pets! Pets!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron heading">
+        <h1>Pets! Pets! Pets!</h1>
+      </div>
+      <div class="row">
+        <h2>We've Got Them All!</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-4">
+          <div class="jumbotron">
+            <h3>Choose the pet you are interested in: </h3>
+            <form id="petChoice">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pets" value="snakes" id="snakes">Snakes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pets" value="fish">Fish
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pets" value="birds">Birds
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-info" id="petChoiceButton">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

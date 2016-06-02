@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One|Quicksand:400,700);
+
+
+.heading {
+  text-align: center;
+  font-family: 'Sigmar One', cursive;;
+  background-image: url(../img/leaf.jpg);
+  color: yellow;
+}
+
+body {
+  background-color: #F0A88B;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
